@@ -15,9 +15,9 @@ Wish me luck! 😊
 
 ### What I'm Gonna Cover Up
 
-I have made a checklist of my learning path with php and listed almost every single basic to advanced 'must learn' topics by following W3Schools website's PHP Roadmap.
+I have made a checklist of my learning path with php and listed almost every single basic to advanced 'must learn' topics by following W3Schools website's PHP Roadmap. Then,
 
-1. Then I marked couple of them as '~ Completed' which I've completed learning already.
+1. I marked couple of them as '~ Completed' which I've completed learning already.
 
 2. I also marked some of them as '~ Half Done' which I've completed learning and stopped in the mid-way.
 
