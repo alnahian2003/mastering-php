@@ -8,7 +8,7 @@
 
 // Basic Getting Started With RegEx in PHP
 $str = "Hello, My Name is alnahian2003";
-$exp = "/nahian/";
+$exp = "/nahian/i";
 
 // Match the string 'nahian' in $str case-insensitively using regEx.
 function matchString($expression, $string)
