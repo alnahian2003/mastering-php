@@ -1,6 +1,6 @@
 # Hello World!
 
-![Mastering PHP](https://user-images.githubusercontent.com/61485238/163480489-faee3513-504f-4675-af32-8f154474775c.jpg)
+![Mastering PHP](https://user-images.githubusercontent.com/61485238/163480595-2ef41b30-df85-4efe-8cb9-cc95a71bbbad.png)
 
 ### What's This Repository All About?
 
