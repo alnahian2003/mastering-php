@@ -4,14 +4,14 @@
 
 ### What's This Repository All About?
 
-You may wondering, on this repo what the heck is going on and what is Nahian doing with this old fashined '!dead' programming language PHP?
-Well, it deifinitely need an explaination, I guess!
+You may be wondering, on this repo what the heck is going on and what is Nahian doing with this old fashioned '!DEAD' programming language PHP?
+Well, it definitely need an explaination, I guess!
 
-First of all, I'm still at a very beginner stage of learning PHP. I'd love to see myself on a really good position at working in the real world with php. I'm kinda lazy in nature and most of the time couldn't able to afford enough motivations to code. Guess what? That pays me back in a very worst way! I supposed to work as a Mid-Level PHP Dev maybe anywhere in my Country or abroad already. But having lacks of good opportunities, depressions, lazyness, lack of assets dragged me already to the worst. 😔
+First of all, I'm still at a very beginner stage of learning PHP. I'd love to see myself on a really good position at working in real projects, jobs with PHP. Let's be honest, I'm kinda lazy in nature and most of the time couldn't able to afford enough motivations to code. Guess what? That pays me back in a very worst way! I supposed to work as a Mid-Level PHP Dev maybe anywhere in my Country or abroad already. But having lacks of good opportunities, depressions, lazyness, lack of assets dragged me already to the worst. 😔
 
-But how long my life should go like this? Where are my big dreams? Where are my life goals? Where? Where? Where?
+I asked my inner self, how long my life should go like this? Where are my big dreams? Where are my life goals? Where? Where? Where?
 
-Recently, I realized those things, intended with strong mindset to change my life as much as possible and get back to the track again by some kinda self challenges. I'm gonna start over from where I left and NEVER GOING TO GIVE UP 💪.
+Recently, I realized those things and intended with strong mindset to change my life as much as possible and get back to the track again by some kinda self challenges. I'm gonna start over from where I left and NEVER GOING TO GIVE UP 💪.
 
 Wish me luck! 😊
 
