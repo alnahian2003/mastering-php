@@ -73,7 +73,7 @@ function replaceString($pattern, $keyword, $string, $case = true)
 
     // Replace the string if it only matches
     if (preg_match($pattern, $string)) {
-        preg_replace($pattern, $keyword, $string);
+        echo preg_replace($pattern, $keyword, $string);
     } else {
         echo "Unable to replace. No matches found";
     }
