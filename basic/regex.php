@@ -24,3 +24,36 @@ function matchString($expression, $string)
 
 // Let's test this simple case
 echo matchString($exp, $str);
+
+
+echo "</br>"; // Line Break for a Better Visibility
+
+/*
+ * Let's see how many maches we can find in a string using PHP regEx function preg_match_all()
+ */
+
+$longString = "The quick brown fox jumps over the lazy dog"; // The String
+$pattern = null; // For now it's a null. But we will assign it dynamically through the totalMatch() function's parameter
+
+function totalMatch($keyword, $string, $case = true)
+{
+    global $pattern;
+
+    /*
+     * Assign the expression through the given keyword as parameter.
+     * Check for the case sensitivity incase of given boolean cases.
+     */
+    $pattern = $case == (is_bool($case) && true) ?  "/$keyword/i" : "/$keyword/";
+
+    // Display the result immediately if the matches are more than 0. Otherwise display error or something.
+    if (preg_match_all($pattern, $string) > 0) {
+        echo "'{$keyword}' found " . preg_match_all($pattern, $string) . " times.";
+    } else {
+        echo "Sorry, '{$keyword}' Not Found !";
+    }
+}
+
+// Let's Give it a Try
+totalMatch("he", $longString, false); // Expected Result: 'he' found 2 times
+
+echo "</br>";
