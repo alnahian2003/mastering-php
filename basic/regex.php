@@ -82,3 +82,8 @@ function replaceString($pattern, $keyword, $string, $case = true)
 // Let's Test
 replaceString("JavaScript", "PHP", $str1); // Expected Result: I Love PHP
 // (HAHA, I just made stuffs hard to understand :P LOL);
+
+
+/* 
+ Finally I've completed learning the basic uses of Regular Expressions in PHP. 16 APR 22, 12:42 AM
+*/
