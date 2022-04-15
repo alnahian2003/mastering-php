@@ -33,12 +33,13 @@ echo "</br>"; // Line Break for a Better Visibility
  */
 
 $longString = "The quick brown fox jumps over the lazy dog"; // The String
-$pattern = null; // For now it's a null. But we will assign it dynamically through the totalMatch() function's parameter
+
+//$pattern = null; 
+// For now it's a null. But we will assign it dynamically through the totalMatch() function's parameter
 
 function totalMatch($keyword, $string, $case = true)
 {
-    global $pattern;
-
+    // global $pattern;
     /*
      * Assign the expression through the given keyword as parameter.
      * Check for the case sensitivity incase of given boolean cases.
@@ -57,3 +58,27 @@ function totalMatch($keyword, $string, $case = true)
 totalMatch("he", $longString, false); // Expected Result: 'he' found 2 times
 
 echo "</br>";
+
+/*
+ * Replacing a string with another made easy using preg_replace() function.
+ */
+
+$str1 = "I Love JavaScript";
+
+echo $str1 . "<br>";
+
+function replaceString($pattern, $keyword, $string, $case = true)
+{
+    $pattern = $case == (is_bool($case) && true) ?  "/$pattern/i" : "/$pattern/";
+
+    // Replace the string if it only matches
+    if (preg_match($pattern, $string)) {
+        preg_replace($pattern, $keyword, $string);
+    } else {
+        echo "Unable to replace. No matches found";
+    }
+}
+
+// Let's Test
+replaceString("JavaScript", "PHP", $str1); // Expected Result: I Love PHP
+// (HAHA, I just made stuffs hard to understand :P LOL);
