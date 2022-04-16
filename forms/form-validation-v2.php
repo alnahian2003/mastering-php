@@ -1,7 +1,7 @@
 <?php
 /* 
  * Date: 17 April, 2022
- * Time: 
+ * Time: 3:17 AM
  * Author: Al Nahian (alnahian2003)
  * Topic: Advanced Form Validation in PHP
  */
@@ -34,7 +34,7 @@ $name = $errName = $email = $errEmail = $url = $errUrl =  "";
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
     // Validate Name Input Field
     $name = clean($_POST["name"]);
-    
+
     // Check if name only contains letters and whitespace
     $pattern = "/^[a-zA-Z-']*$/";
     if (!preg_match($pattern, $name)) {
