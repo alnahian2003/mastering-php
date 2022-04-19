@@ -147,6 +147,7 @@ $dirContent = scandir($targetDirectory);
                 echo "</div>"; // End the .avatar div
             }
         }
+        closedir($openDirectory);
         ?>
     </div>
 </body>
