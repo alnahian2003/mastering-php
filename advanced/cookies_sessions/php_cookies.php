@@ -5,8 +5,12 @@
  * Author: Al Nahian (alnahian2003)
  * Topic: Working With Cookies in PHP
  */
+
+ob_start();
+session_start();
+
 $cookieName = "user";
-$cookieValue = "alnahian2003";
+$cookieValue = $_SESSION["username"]; // This value comes from another page, another session
 $cookieExp = time() + (86400 * 7); // Cookie expires within 7 days
 setcookie($cookieName, $cookieValue, $cookieExp, "/");
 ?>
