@@ -10,9 +10,6 @@ function br()
     echo "</br>";
 }
 
-// List of All Supported Filters
-$arr = array("Al Nahian", "Jim Halpert", "Michael Scott", "Dwight K Schrute", "Andy Bernard", "Ryan Howard",);
-
 // Sanitize a String using filter_var()
 $greet = "<h1>Welcome, Al Nahian!</h1>";
 echo htmlspecialchars($greet);
