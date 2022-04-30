@@ -1,7 +1,7 @@
 <?php
 /* 
 * Start Date: 1:59 PM, 30 April 2022
-* End Date: 
+* End Date: 2:10 PM, 30 April 2022
 * Author: Al Nahian (alnahian2003)
 * Topic: Working with __get() & __set() Magic Methods in OOP PHP
 */
