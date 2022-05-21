@@ -12,7 +12,7 @@ function lbr()
     return "</br>";
 }
 
-// Method inside the class must have 'static' keyword to declare a Static Property
+// Method inside the class must have 'static' keyword to declare a Static Method
 class MyClass
 {
     // Static Method
