@@ -9,6 +9,9 @@
 //  Let's create a 'namespace' called 'Student' first
 namespace Student;
 
+use Date;
+
+
 class Profile
 {
     private $name, $age, $roll;
@@ -44,4 +47,13 @@ class Profile
     {
         return $this->roll;
     }
+}
+
+// Also a function to test how it works in namespace mode
+function birthYear($age)
+{
+    // set the default timezone to use.
+    date_default_timezone_set("Asia/Dhaka");
+    $year = date("Y"); // current year
+    return $year - $age;
 }
