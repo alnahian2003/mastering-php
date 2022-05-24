@@ -13,7 +13,7 @@ require "namespace2.php"; // Class of Teachers
 
 // Basic Use of Namespace
 {
-    $teacher = new Teacher\Profile();
+    $teacher = new \Teacher\Profile();
 
     $teacher->setName("Al Nahian"); //  set a name for the teacher
 
@@ -31,7 +31,7 @@ require "namespace2.php"; // Class of Teachers
 }
 
 echo "<br>"; {
-    $student = new Student\Profile();
+    $student = new \Student\Profile();
 
     $student->setName("Abdullah"); //  set a name for the teacher
 
@@ -40,5 +40,5 @@ echo "<br>"; {
 
     // Let's get the birthyear of the student
     $student->setAge(19); // set student age first to get the birth year
-    echo "Birth Year of {$student->getName()} is " . Student\birthYear($student->getAge());
+    echo "Birth Year of {$student->getName()} is " . \Student\birthYear($student->getAge());
 }
